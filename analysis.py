@@ -17,7 +17,7 @@ my_page = st.sidebar.radio('Contents',
                             'EDA',
                             'Data Preparation',
                             'Modeling and Evaluation',
-                            'Conclusions and Recommendations']) # creates sidebar #
+                            'Author']) # creates sidebar #
 
 st.markdown("""<style>.css-1aumxhk {background-color: #ebeae3;background-image: none;color: #ebeae3}</style>""", unsafe_allow_html=True) # changes background color of sidebar #
 
@@ -173,4 +173,12 @@ elif my_page == 'Modeling and Evaluation':
      st.markdown('<div style="color: #FFFFFF;">.</div>',unsafe_allow_html=True) # for space between title and paragraph #
      st.markdown(':bulb:  Boosting algorithms generalizes well with our data.')
      st.markdown(':bulb:  Most important features are odometer, manufacturer, model, and age.')
-#-----End of Page 6 (Model Results and Evaluation)-----#
+#-----End of Page 7 (Model Results and Evaluation)-----#
+
+#-----Start of Page 8 (Author)-----#
+elif my_page == 'Author':
+    st.header('Author')
+    st.subheader('Joseph Figuracion')
+    st.markdown('- Email: [josephfiguracion@gmail.com](josephfiguracion@gmail.com)')
+    st.markdown('- LinkedIn: [https://www.linkedin.com/in/josephfiguracion/](https://www.linkedin.com/in/josephfiguracion/)')
+    st.markdown('- Github: [https://github.com/TheLastMonolith](https://github.com/TheLastMonolith)')
