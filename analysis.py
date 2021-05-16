@@ -1,11 +1,6 @@
 import streamlit as st
 import streamlit.components.v1 as components
-import pandas as pd
-import numpy as np
-import matplotlib as mpl
-import matplotlib.pyplot as plt
-import matplotlib.colors as mcolors
-import seaborn as sns
+
 import warnings
 warnings.filterwarnings('ignore')
 
